@@ -1,0 +1,40 @@
+.first-li{
+  list-style-image : url(img/100.svg);
+}
+
+.second-li{
+  list-style-image : url(img/94.svg);
+}
+
+ul{
+  list-style:none;
+}
+
+body{
+background-color:white;
+}
+
+.down-footer{
+  background-color: #515151;
+}
+
+.up-footer{
+  background-color: #FAFAFA;
+}
+
+.article{
+  background-color: #E5E5E5;
+}
+
+.page-header-index{
+  background-color: #F4F4F4;
+}
+
+ .index{
+  background-color: #E5E5E5;
+}
+
+div.left{
+  float : left;
+
+}
