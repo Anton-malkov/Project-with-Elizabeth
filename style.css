@@ -1,17 +1,30 @@
-.first-li{
-  list-style-image : url(img/100.svg);
+body{
+  background-color:white;
+  color:black;
+  align: left;
+  font-family: Fira-sans;
+  vertical-align: top;
 }
 
-.second-li{
-  list-style-image : url(img/94.svg);
+h1{
+
+  font-style: Bold;
+  font-size: 60px;
+  line-height: 70px;
+
+  letter-spacing: -1px;
 }
 
 ul{
   list-style:none;
 }
 
-body{
-background-color:white;
+.first-li{
+  list-style-image : url(img/100.svg);
+}
+
+.second-li{
+  list-style-image : url(img/94.svg);
 }
 
 .down-footer{
@@ -36,5 +49,4 @@ background-color:white;
 
 div.left{
   float : left;
-
 }
