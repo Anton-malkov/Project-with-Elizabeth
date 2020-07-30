@@ -1,0 +1,135 @@
+@font-face{
+  src:url('../fonts/FiraSans-Regular.ttf');
+  font-family: "Fira Sans";
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face{
+  src:url('../fonts/FiraSans-Bold.ttf');
+  font-family: "Fira Sans";
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face{
+  src:url('../fonts/FiraSans-Italic.ttf');
+  font-family: "Fira Sans";
+  font-weight: normal;
+  font-style: italic;
+}
+
+body{
+  background-color:white;
+  color:black;
+  align: left;
+  font-family: "Fira Sans";
+  font-weight: normal;
+  vertical-align: top;
+}
+
+main{
+  background-color:#F4F4F4;
+}
+
+h1{
+  font-family: "Fira Sans";
+  font-weight: bold;
+  font-style: normal;
+  font-size: 60px;
+  line-height: 70px;
+  letter-spacing: -1px;
+  color:black;
+}
+
+h2{
+  font-family: Fira Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 50px;
+  letter-spacing: -1px;
+  color: #222222;
+}
+
+p{
+  color: #222222;
+  opacity: 0.7;
+}
+
+.text-block a{
+  position:absolute;
+  background: #4737FF;
+  color:white;
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+
+
+
+ul, ul.ul-grey {
+  color: #222222;
+  opacity: 0.5;
+  list-style:none;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+button{
+  font-size:15px;
+  width:50px;
+  height:50px;
+  background: #C4C4C4;
+  color:white;
+}
+
+div.dark-footer{
+  background: #515151;
+}
+
+.p-name{
+  color:black;
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 32px;
+}
+
+.first-li{
+  list-style-image : url(../img/100.svg);
+}
+
+.second-li{
+  list-style-image : url(../img/94.svg);
+}
+
+.down-footer{
+  background-color: #515151;
+}
+
+.up-footer{
+  background-color: #FAFAFA;
+}
+
+.article{
+  background-color: #E5E5E5;
+}
+
+.page-header-index{
+  background-color: #F4F4F4;
+}
+
+ .index{
+  background-color: #E5E5E5;
+}
+
+div.left{
+  float : left;
+}
